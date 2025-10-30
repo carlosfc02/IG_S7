@@ -15,7 +15,7 @@ Este proyecto es una simulación interactiva del sistema solar desarrollada con 
 ---
 
 ## Enlace a Youtube
-[![YouTube] **▶️ Sistema Solar en YouTube**](https://www.youtube.com/watch?v=v1IUo-N6F7I)
+[**▶️ Sistema Solar en YouTube**](https://www.youtube.com/watch?v=v1IUo-N6F7I)
 
 ---
 
