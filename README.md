@@ -10,7 +10,12 @@ Este proyecto es una simulación interactiva del sistema solar desarrollada con 
 ---
 
 ## Enlace a CodeSandbox
-[Abrir en CodeSandbox](https://codesandbox.io/p/sandbox/ig2526-s7-forked-4hfvlh?file=%2Fsrc%2Findex.html%3A13%2C1)
+[Abrir en CodeSandbox](https://codesandbox.io/p/sandbox/ig2526-s7-forked-4hfvlh)
+
+---
+
+## Enlace a Youtube
+[![YouTube] **▶️ Sistema Solar en YouTube**](https://www.youtube.com/watch?v=v1IUo-N6F7I)
 
 ---
 
