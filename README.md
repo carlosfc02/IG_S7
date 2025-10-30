@@ -10,7 +10,7 @@ Este proyecto es una simulación interactiva del sistema solar desarrollada con 
 ---
 
 ## Enlace a CodeSandbox
-https://codesandbox.io/p/sandbox/ig2526-s7-forked-4hfvlh?file=%2Fsrc%2Findex.html%3A13%2C1
+[Abrir en CodeSandbox](https://codesandbox.io/p/sandbox/ig2526-s7-forked-4hfvlh?file=%2Fsrc%2Findex.html%3A13%2C1)
 
 ---
 
@@ -23,6 +23,7 @@ https://codesandbox.io/p/sandbox/ig2526-s7-forked-4hfvlh?file=%2Fsrc%2Findex.htm
 * **Múltiples Vistas:** Cambio rápido entre vistas de cámara predefinidas (Jugador, General, Superior).
 * **Fondo de Cielo:** Implementación de un "Skydome" con textura invertida (`THREE.BackSide`) para simular el espacio.
 * **Jugador:** Una esfera que se mueve con la cámara en la vista de control y se congela al pausar. En este caso se ha añadido una foto mía como textura.
+* **Instrucciones de Control:** Se ha añadido un desplegable en el HTML con los controles.  
 
 ---
 

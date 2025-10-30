@@ -13,6 +13,40 @@
 
   <body>
     <div id="app"></div>
+    <details
+      id="controls-panel"
+      open
+      style="
+        position: absolute;
+        top: 70px;
+        left: 10px;
+        z-index: 10;
+        background: rgba(0, 0, 0, 0.8);
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        font-family: Arial, sans-serif;
+        max-width: 300px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+      "
+    >
+      <summary style="font-weight: bold; cursor: pointer; color: #72ffff">
+        🕹️ Controles (Clic para Ocultar)
+      </summary>
+      <ul
+        style="
+          list-style: none;
+          padding: 0;
+          margin: 5px 0 0 0;
+          line-height: 1.5;
+        "
+      >
+        <li>Espacio: Pausar / Reanudar ⏸️</li>
+        <li>T / G: Ajustar Velocidad de Órbita ⏱️</li>
+        <li>1 / 2 / 3: Cambiar Vistas de Cámara 🔭</li>
+        <li>W/A/S/D o Flechas: Mover Cámara 🚀</li>
+      </ul>
+    </details>
     <script src="Práctica_6.js" type="module"></script>
   </body>
 </html>
