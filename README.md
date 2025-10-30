@@ -9,6 +9,11 @@ Este proyecto es una simulación interactiva del sistema solar desarrollada con 
 
 ---
 
+## Enlace a CodeSandbox
+https://codesandbox.io/p/sandbox/ig2526-s7-forked-4hfvlh?file=%2Fsrc%2Findex.html%3A13%2C1
+
+---
+
 ## ✨ Características Principales
 
 * **Renderizado 3D:** Uso de `THREE.WebGLRenderer` para dibujar la escena.
@@ -17,7 +22,7 @@ Este proyecto es una simulación interactiva del sistema solar desarrollada con 
 * **Controles de Usuario:** Pausa de la simulación y ajuste dinámico de la velocidad de órbita.
 * **Múltiples Vistas:** Cambio rápido entre vistas de cámara predefinidas (Jugador, General, Superior).
 * **Fondo de Cielo:** Implementación de un "Skydome" con textura invertida (`THREE.BackSide`) para simular el espacio.
-* **Jugador:** Una esfera que se mueve con la cámara en la vista de control y se congela al pausar.
+* **Jugador:** Una esfera que se mueve con la cámara en la vista de control y se congela al pausar. En este caso se ha añadido una foto mía como textura.
 
 ---
 
@@ -53,7 +58,7 @@ El código se organiza en las siguientes partes funcionales:
 ### 1. Inicialización y Bucle Principal
 
 * **`init()`:** Configura la escena, la cámara (estableciendo la vista inicial), el renderizador, los `FlyControls` y el **detector de eventos de teclado** para la pausa, velocidad de órbita, y cambio de vistas.
-* **`animationLoop()`:** El corazón de la simulación.
+* **`animationLoop()`:** 
     * **Controla la pausa (`isPaused`)** para congelar las órbitas.
     * **Actualiza el jugador:** `playerSphere` copia la posición de la cámara solo si la simulación está activa (o al pausar, permitiendo moverse para verlo).
     * **Actualiza `flyControls.update(1 * secs)`:** Se ejecuta **siempre** para que la cámara pueda moverse libremente en la vista de jugador, incluso si la simulación está en pausa.
